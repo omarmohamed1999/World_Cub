@@ -1,0 +1,152 @@
+    /** {
+        outline: 2px red solid;
+    }*/
+    
+    body {
+        background-image: url("images/1.jpg");
+        background-size: 100% 1565px;
+        display: flex;
+    }
+    
+    .container {
+        display: flex;
+        width: 102%;
+    }
+    
+    .header {
+        display: flex;
+        margin: -8px;
+        height: 70px;
+        background-color: rgba(9, 78, 38, 0.692);
+        position: absolute;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    li {
+        display: inline-flex;
+        font-size: 23px;
+        border-color: unset;
+        justify-content: flex-end;
+        align-items: right;
+        padding: 15px;
+        text-align: right;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover {
+        color: rgb(182, 182, 182);
+        position: relative;
+        top: -5px;
+    }
+    
+    .lo {
+        color: white;
+        font-size: 25px;
+        font-family: cursive;
+        display: inline-flex;
+        position: relative;
+        left: 280px;
+        align-self: flex-end;
+    }
+    
+    .logo {
+        width: 70px;
+        height: 50px;
+        color: white;
+        /*position: relative;
+    top: 20px;
+    left: 320px;*/
+        display: inline-flex;
+    }
+    
+    .A {}
+    
+    .B {
+        transform-style: preserve-3d;
+        transition: all 1s ease;
+    }
+    
+    .B:hover {
+        transform: rotateY(180deg);
+    }
+    
+    .one {
+        width: 550px;
+        height: 190px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgba(54, 121, 121, 0.568);
+        padding-top: 0px;
+        margin: 20px;
+        align-self: flex-end;
+        backface-visibility: hidden;
+    }
+    
+    .back {
+        width: 550px;
+        height: 190px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgba(101, 126, 87, 0.555);
+        color: white;
+        padding-top: 0px;
+        margin: 20px;
+        align-self: flex-end;
+        backface-visibility: hidden;
+        transform: rotateY(180deg);
+    }
+    
+    .on {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .span {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .two {
+        width: 550px;
+        height: 190px;
+        background-color: rgba(119, 119, 119, 0.658);
+        border-radius: 10px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px;
+        align-self: center;
+        backface-visibility: hidden;
+    }
+    
+    .tw {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .three {
+        width: 1200px;
+        height: 230px;
+        background-color: rgba(119, 119, 119, 0.664);
+        border-radius: 10px;
+        margin: 20px;
+        text-align: center;
+        backface-visibility: hidden;
+    }
+    
+    .th {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .dad {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 160px;
+        flex-direction: column;
+        align-items: stretch;
+    }
