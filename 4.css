@@ -47,3 +47,113 @@ a:hover {
     left: 320px;*/
     display: inline-flex;
 }
+
+.one {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.dad {
+    display: flex;
+    width: 95%;
+    height: 700px;
+    background-color: rgb(68, 74, 80);
+    margin-left: 30px;
+}
+
+.on {
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.two {
+    text-align: right;
+    width: 600px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.map {
+    height: 500px;
+}
+
+.tt {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rr {
+    height: 400px;
+    width: 95%;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.footer {
+    background-color: rgba(9, 78, 38, 0.692);
+    width: 101%;
+    height: 320px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-txt {
+    width: 250px;
+    padding: 1px 45px;
+    color: #fff;
+}
+
+.txt1 {
+    margin-top: 10px;
+    width: 150px;
+}
+
+.txt2 {
+    margin-top: 10px;
+}
+
+.txt3 {
+    margin-top: 10px;
+}
+
+.txt4 {
+    margin-top: 10px;
+}
+
+.footer-txt {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.footer-txt li {
+    display: block;
+    padding: 0px;
+}
+
+.footer-txt li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.big {
+    display: flex;
+    flex-direction: column;
+}
